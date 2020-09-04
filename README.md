@@ -30,12 +30,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/DF8fnmch2K.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 
 ## Notes
 
 I had never worked with Xcode prior to this assignament so the hardest part was trying to locate all the different options.
+I also accidently deleted the finsihed product while uploading the product so I was forced to do it again.
 
 ## License
 
