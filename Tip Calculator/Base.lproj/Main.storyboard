@@ -51,7 +51,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="70w-Sb-8Qw">
-                                <rect key="frame" x="38" y="325" width="356" height="32"/>
+                                <rect key="frame" x="20" y="325" width="374" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="10%"/>
@@ -64,6 +64,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="cWW-G3-eLb"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -73,6 +76,11 @@
                             <outletCollection property="gestureRecognizers" destination="sTX-MP-egL" appends="YES" id="1qT-J6-rSD"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="billField" destination="NIk-dW-zWh" id="Afu-l0-7jf"/>
+                        <outlet property="tipLabel" destination="b4r-CT-2Uc" id="ooX-2S-3mq"/>
+                        <outlet property="totalLabel" destination="iUo-3Z-ksX" id="WLv-dG-eic"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="sTX-MP-egL">
